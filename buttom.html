@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/bootstrap-logo-shadow.png" />
-    <link rel="stylesheet" href="sysle.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Bootstrap 5</title>
     <!-- css -->
     <link
@@ -23,33 +23,46 @@
   </head>
   <body>
     <div class="container">
-        <form>
-           <button class="btn btn-primary btn-lg">Blue</button>
+      <button class="btn btn-primary btn-lg">Blue</button>
+      <button class="btn btn-outline-warning">Outline</button>
+      <br />
+      <br />
+      <div class="btn-group">
+        <button class="btn btn-outline-primary">One</button>
+        <button class="btn btn-outline-primary">Two</button>
+        <button class="btn btn-outline-primary">Three</button>
+        <button class="btn btn-outline-primary">Four</button>
+        <button class="btn btn-outline-primary">five</button>
+      </div>
+      <br />
+      <br />
+      <div class="btn-group btn-group-lg">
+        <a href="#" class="btn btn-danger">Link</a>
+        <a href="#" class="btn btn-warning">Link</a>
+        <a href="#" class="btn btn-success">Link</a>
+      </div>
 
-           <button class="btn btn-outline-warning btn-lg">Blue</button>
-            <br>
-            <br>
-            
-           <div class="btn-group">
-            <button class="btn btn-outline-primary">One</button>
-            <button class="btn btn-outline-primary">One</button>
-            <button class="btn btn-outline-primary">One</button>
-            <button class="btn btn-outline-primary">One</button>
-            <br>
-            <br>
-            <div class="btn-group btn-group-lg">
-                <a href="#" class="btn btn-danger">Link</a>
-                <a href="#" class="btn btn-warning">Link</a>
-                <a href="#" class="btn btn-success">Link</a>
-            </div>
-           </div>
-           <div class="btn-group">
-            <button class="btn btn-primary">1</button>
-            <button class="btn btn-primary">2</button>
-            <div class="btn-group">
-                
-            </div>
-           </div>
-        </form>
+      <br />
+      <br />
+
+      <div class="btn-group">
+        <button class="btn btn-primary">1</button>
+        <button class="btn btn-primary">2</button>
+
+        <div class="btn-group">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+          >
+            Dropdown
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Dropdown Link</a></li>
+            <li><a href="#" class="dropdown-item">Dropdown Link</a></li>
+            <li><a href="#" class="dropdown-item">Dropdown Link</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
+</html>

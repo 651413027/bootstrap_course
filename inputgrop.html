@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/bootstrap-logo-shadow.png" />
-    <link rel="stylesheet" href="sysle.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Bootstrap 5</title>
     <!-- css -->
     <link
@@ -24,13 +24,26 @@
   <body>
     <div class="container">
       <form>
-        <label for="amount" class="form-label">Amount</label>
+        <lable for="amount" class="form-label">
+          Amount
+        </lable>
         <div class="input-group">
-            <div class="input-group-text">$</div>
-            <input type="number" name="amount" id="amount" class="">
-            <div class="input-group-text">.00</div>
+          <div class="input-group-text">$</div>
+          <input type="number" name="amount" id="amount" class="form-control" />
+          <div class="input-group-text">.00</div>
         </div>
-        <button type="submit">submit</button>
+
+        <lable for="add" class="form-label">
+            Add
+          </lable>
+          <div class="input-group">
+            <div class="input-group-text">$</div>
+            <input type="number" name="add" id="add" class="form-control" />
+            <button class="btn btn-primary">+</button>
+          </div>
+
+        <button class="submit">Submit</button>
       </form>
     </div>
-</body>
+  </body>
+</html>
